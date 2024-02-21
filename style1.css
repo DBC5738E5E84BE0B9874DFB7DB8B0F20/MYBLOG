@@ -100,7 +100,7 @@ button{
     background-color: azure;
 }
 
-@media only screen and (max-width: 358px)
+@media only screen and (max-width: 768px)
 {
     body
     {
@@ -141,7 +141,16 @@ nav h2
 {
     color: rgb(23, 132, 233);
     font-size: 50px;
+    border: 1px black solid;
+    width: 150px;
 
 }
 
+}
+@media only screen and (max-width: 130px)
+{
+   nav h2{
+        border: 1px solid black;
+        width: 150px;
+    }
 }

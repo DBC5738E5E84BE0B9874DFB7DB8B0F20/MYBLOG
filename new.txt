@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+<frameset rows="100px,*">
+    <frame src="frame3.html">
+    <frameset cols="30%,*">
+	
+    <frame src="frame1.html" >
+<frame src="frame2.html" name="frame">
+    
+   
+
+       
+</frameset>
+</frameset>
+</html>

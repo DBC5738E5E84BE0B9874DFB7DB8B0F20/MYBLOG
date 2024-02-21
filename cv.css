@@ -1,0 +1,143 @@
+*{
+    padding:0;
+    margin :0;
+}
+body
+{
+    background-color: lightpink;
+    
+}
+.common img{
+    border-radius: 100px;
+}
+.container
+{
+    border: 3px transparent solid;
+
+}
+.container li
+{
+list-style: none;
+}
+h5
+{
+    padding: 0%;
+    margin: 0%;
+
+}
+h3, h2, h1
+{
+    color: palevioletred;
+}
+a
+{
+    color: blueviolet;
+
+}
+.common
+{
+   
+    
+    padding: 30px 20px;
+    width: 30%;
+    float: left;
+    background-color: black;
+    color: white;
+    margin-left: 30px;
+  
+
+}
+ol li
+{
+    list-style: none;
+}
+.common2
+{
+    
+    padding: 9px 10px;
+    width: 50%;
+    float: right;
+    background-color: white;
+    color: black;
+    float: left;
+    
+}
+
+.common2 ul li{
+    list-style-position: inside;
+    
+}
+a{
+    color: pink;
+    text-decoration: none;
+}
+a:hover
+{
+    color: palevioletred;
+}
+.main
+{
+    border: 3px solid white;
+    background-color: white;
+
+}
+@media (max-width: 768px)
+{
+ /*   body{
+    background-image:url("new.jpg");
+    margin: 100px 0px;
+    }
+    .common
+    {
+       
+        
+        padding: 63px 20px;
+        width: 30%;
+        float: left;
+        background-color: black;
+        color: white;
+        margin-left: 30px;
+      
+    
+    } 
+    h3, h2, h1
+{
+    color: rgb(46, 135, 230);
+}
+ */
+ @media (max-width: 768px) {
+    body {
+        background-image: url("new.jpg");
+        margin: 100px 0px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .common {
+        width: 90%;
+        margin: 20px 0;
+    }
+    .common2 {
+        width: 90%;
+        margin: 20px 0;
+    }
+    h3, h2, h1 {
+        color: rgb(46, 135, 230);
+    }
+    table {
+        width: 100%;
+        border: 1px solid black; /* Add border to the table */
+    }
+    th, td {
+        padding: 8px; /* Add padding to table cells */
+        text-align: left; /* Align text to the left */
+        border-bottom: 1px solid #ddd; /* Add border bottom to table rows */
+    }
+    th {
+        background-color: #f2f2f2; /* Background color for table header */
+    }
+}
+
+}

@@ -1,0 +1,147 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+   background-image: url("pink.jpg");
+    padding: 10px 0px;
+    margin: 10px 0px;
+    
+}
+nav{
+    padding: 20px 20px;
+    display: block;
+    
+    color: black;
+    width: 78%;
+    height: 100%;
+   margin: 20px 20px;
+}
+nav h2
+{
+padding: 20px 20px;
+margin: 20px 20px;
+border: 4px pink solid;
+background-color:white ;
+color: salmon;
+font-weight: 200;
+
+}
+
+nav ul
+{
+    display: block;
+    list-style-type: none;
+    padding: 20px 20px;
+    margin: auto;
+   
+   
+}
+nav ul li
+{
+    
+    padding: 20px 0px;
+   margin: 20px 0px;
+ 
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav ul li a:hover
+{
+    color: salmon;
+    border: 3px transparent; 
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    
+}
+.in
+{
+    background-color: aquamarine;
+    
+}
+.in a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.up
+{
+    background-color: aqua;
+}
+.up a
+{
+    text-decoration: none;
+    color: black;
+}
+.in a:hover
+{
+    color: rgb(144, 16, 155) ;
+    border: 5px transparent;
+    background-color: azure;
+}
+.up a:hover
+{
+     color: rgb(144, 16, 155) ;
+    border: 5px transparent;
+    background-color: azure;
+}
+
+@media only screen and (max-width: 358px)
+{
+    body
+    {
+        background-image: url("new.jpg");
+        
+    
+}
+ul{
+    position: relative;
+    bottom: 20px;
+    border: 1px transparent solid;
+    padding: 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+nav ul li a{
+    color: aqua;
+    font-size: 50px;
+
+}
+nav ul li a:hover
+{
+    color: salmon;
+    padding: 10px 10px;
+    border: 1px solid salmon;
+    margin: 10px 10px;
+} 
+button{
+    display: block;
+    margin: 20px 20px;
+    padding: 10px 50px;
+    font-size: larger;
+    font-weight: bold;
+}
+nav h2
+{
+    color: rgb(23, 132, 233);
+    font-size: 50px;
+
+}
+
+}

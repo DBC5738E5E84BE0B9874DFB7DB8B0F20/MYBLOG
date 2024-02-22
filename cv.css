@@ -1,10 +1,11 @@
+@media (max-width: 1200px){
 *{
     padding:0;
     margin :0;
 }
 body
 {
-    background-color: lightpink;
+    background-color: white;
     
 }
 .common img{
@@ -39,11 +40,13 @@ a
    
     
     padding: 30px 20px;
-    width: 30%;
+    width: 200px;
+    height: 90%;
     float: left;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-left: 30px;
+    padding-bottom: 76px;
   
 
 }
@@ -55,10 +58,12 @@ ol li
 {
     
     padding: 9px 10px;
-    width: 50%;
+    width: 500px;
+    height: 90%;
     float: right;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
+  
     float: left;
     
 }
@@ -68,12 +73,12 @@ ol li
     
 }
 a{
-    color: pink;
+    color: palevioletred;
     text-decoration: none;
 }
 a:hover
 {
-    color: palevioletred;
+    color: violet;
 }
 .main
 {
@@ -81,9 +86,25 @@ a:hover
     background-color: white;
 
 }
-@media (max-width: 768px)
+table {
+    width: 60%;
+    border: 1px solid white;  
+}
+ td {
+    color: white;
+    
+        text-align: left; 
+    border-bottom: 1px solid #ddd; /* Add border bottom to table rows */
+}
+th {
+    color: black;
+    background-color: #f2f2f2; /* Background color for table header */
+}
+}
+
+/*@media (max-width: 768px)
 {
- /*   body{
+    body{
     background-image:url("new.jpg");
     margin: 100px 0px;
     }
@@ -105,7 +126,7 @@ a:hover
     color: rgb(46, 135, 230);
 }
  */
- @media (max-width: 768px) {
+/* @media (max-width: 768px) {
     body {
         background-image: url("new.jpg");
         margin: 100px 0px;
@@ -128,16 +149,10 @@ a:hover
     }
     table {
         width: 100%;
-        border: 1px solid black; /* Add border to the table */
+        border: 1px solid black; /* Add border to the table 
     }
     th, td {
         padding: 8px; /* Add padding to table cells */
-        text-align: left; /* Align text to the left */
-        border-bottom: 1px solid #ddd; /* Add border bottom to table rows */
-    }
-    th {
-        background-color: #f2f2f2; /* Background color for table header */
-    }
-}
 
-}
+
+
